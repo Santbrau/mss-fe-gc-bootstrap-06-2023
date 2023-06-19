@@ -1,0 +1,96 @@
+body {
+    background-image: url(./images/fondo.jpg);
+    min-height: 100vh;
+}
+
+.cn-1 {
+    width: 500px;
+}
+
+.padlock {
+    position: relative;
+    left: 27vh;
+    height: 5vh;
+    width: 5vh;
+    margin-top: 1vh;
+    background-image: url(./images/padlock.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.white-square {
+    padding: 1vh;
+    background-color: rgb(255, 255, 255);
+    height: 12vh;
+    border: 1px solid;
+    border-color: rgb(197, 197, 196);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+}
+
+#login {
+    margin-top: 1vh;
+    color:  rgb(146, 146, 146);
+    font-size: 2vh;
+}
+
+#username {
+    margin-top: 1vh;
+    color: rgb(146, 146, 146);
+    font-size: 1.5vh;
+}
+
+.grey-square {
+    padding: 1vh;
+    background-color: rgb(197, 197, 196);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.margin-top-space {margin-top: 18vh;}
+
+.lorem-class {
+    height: 9vh;
+    font-size: 1.7vh;
+    color: rgb(255, 255, 255);
+}
+
+.login-form {
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    height: 5vh;
+}
+
+.login-with {
+    margin-top: 3vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.8vh;
+}
+
+.flex-rrss {
+    width: 50vh;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-left: 2.3vh;
+}
+
+.box {
+    width: calc(33.33% - 5px); 
+    height: 3.5vh;
+    background-color: #252525;
+    opacity: 90%;
+    color: rgb(160, 160, 160);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.box img {
+    width: 1.5vh;
+    height: 1.5vh;
+}
