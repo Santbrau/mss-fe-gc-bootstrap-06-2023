@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    margin-top: 1vh;
+}
+
+.row-1 {
+    margin-bottom: 2vh;
+    font-size: 2vw;
+    margin-left: 0.1vh;
+    color: rgb(0, 132, 255);
+}
+
+.row-2 {
+    margin-bottom: 1vh;
+}
+

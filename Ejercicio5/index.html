@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio5</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container cn-1">
+    <div class="row row-1">Listado de Usuarios del Sistema</div>
+    <div class="row row-2">
+        <div class="col-9">
+            <div class="dropdown d-inline">Mostrar
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    10
+                </button> 
+                registros
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">9</a></li>
+                    <li><a class="dropdown-item" href="#">8</a></li>
+                    <li><a class="dropdown-item" href="#">7</a></li>
+                    <li><a class="dropdown-item" href="#">6</a></li>
+                    <li><a class="dropdown-item" href="#">5</a></li>
+                    <li><a class="dropdown-item" href="#">4</a></li>
+                    <li><a class="dropdown-item" href="#">3</a></li>
+                    <li><a class="dropdown-item" href="#">2</a></li>
+                    <li><a class="dropdown-item" href="#">1</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <form class="d-inline" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-responsive">
+        <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+            <th scope="col" class="text-start fw-bold">ID</th>
+            <th scope="col" class="text-start fw-bold">Usuario</th>
+            <th scope="col" class="text-start fw-bold">Sector</th>
+            <th scope="col" class="text-start fw-bold">Último Ingreso</th>
+            <th scope="col" class="text-start fw-bold">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-secondary">
+            <td class="text-start">1</td>
+            <td class="text-start">admin</td>
+            <td class="text-start">Administración</td>
+            <td class="text-start">2018-01-17 12:49:56</td>
+            <td class="text-start"><img src="./images/icons8-ver-50.png" alt="ojo" height="33vh">
+                <img src="./images/icons8-goodnotes-50.png" alt="notes" height="33vh">
+                <img src="./images/icons8-basura-48.png" alt="basura" height="33vh">
+            </td>
+            </tr>
+            <tr>
+            <td class="text-start">2</td>
+            <td class="text-start">marcelo</td>
+            <td class="text-start">Administración</td>
+            <td class="text-start">2018-02-24 13:38:56</td>
+            <td class="text-start">
+                <img src="./images/icons8-ver-50.png" alt="ojo" height="33vh">
+                <img src="./images/icons8-goodnotes-50.png" alt="notes" height="33vh">
+                <img src="./images/icons8-basura-48.png" alt="basura" height="33vh">
+            </td>
+            </tr>
+            <tr class="table-secondary">
+            <td class="text-start">3</td>
+            <td class="text-start">eduardo</td>
+            <td class="text-start">Producción</td>
+            <td class="text-start">2018-02-08 10:54:36</td>
+            <td class="text-start">
+                <img src="./images/icons8-ver-50.png" alt="ojo" height="33vh">
+                <img src="./images/icons8-goodnotes-50.png" alt="notes" height="33vh">
+                <img src="./images/icons8-basura-48.png" alt="basura" height="33vh">
+            </td>
+            </tr>
+            <tr>
+            <td class="text-start">4</td>
+            <td class="text-start">jorge</td>
+            <td class="text-start">Administración</td>
+            <td class="text-start">2018-02-08 09:43:26</td>
+            <td class="text-start">
+                <img src="./images/icons8-ver-50.png" alt="ojo" height="33vh">
+                <img src="./images/icons8-goodnotes-50.png" alt="notes" height="33vh">
+                <img src="./images/icons8-basura-48.png" alt="basura" height="33vh">
+            </td>
+            </tr>
+            <tr class="table-secondary">
+            <td class="text-start">5</td>
+            <td class="text-start">gaston</td>
+            <td class="text-start">Producción</td>
+            <td class="text-start">2018-02-20 17:25:45</td>
+            <td class="text-start">
+                <img src="./images/icons8-ver-50.png" alt="ojo" height="33vh">
+                <img src="./images/icons8-goodnotes-50.png" alt="notes" height="33vh">
+                <img src="./images/icons8-basura-48.png" alt="basura" height="33vh">
+            </td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-9">
+            Mostrando del 1 al 5 de un total de 5 registros
+        </div>
+        <div class="col">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-primary btn-sm">Agregar Usuario</button>
+        </div>
+        <div class="col"></div>
+    </div>
+    </div>
+</body>
+</html>

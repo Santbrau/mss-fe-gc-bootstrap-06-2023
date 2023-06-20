@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(205, 206, 205);
+    min-height: 100vh;
+}
+
+.cn-1 {
+    position: relative;
+    width: 98vw;
+    top: 1vw;
+}
+
+.pint {
+    background-color: blueviolet;
+}
+
+.row-1 {
+    padding: 1vh;
+    background-color:aliceblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row1-text {
+    font-size: 1.6vh;
+}
+
+.row-2 {
+    height: 6vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.logoipsum img{
+    width: 15vh;
+    height: 5vh;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-toggler {
+color: #ffffff; 
+}
